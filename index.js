@@ -135,7 +135,7 @@
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             ctx.fillStyle = '#000';
             game.target.draw();
-            game.ball.draw();
+            // game.ball.draw();
             ctx.font = "30px Tahoma";
             ctx.fillStyle = '#fff';
             ctx.fillText(game.score, 100, 100);
