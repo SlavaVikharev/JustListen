@@ -17,3 +17,27 @@ html, body {
 #game_canvas {
     display: block;
 }
+
+#game_menu {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: #111;
+    color: #fff;
+}
+
+#game_menu > .info {
+    margin: 0 10px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#score:before {
+    content: "Score: ";
+}
+
+#highscore:before {
+    content: "Highscore: ";
+}
